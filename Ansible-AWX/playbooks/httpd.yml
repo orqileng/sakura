@@ -1,5 +1,5 @@
 ---
-- hosts: root
+- hosts: 127.0.0.1
   tasks:
    - name: install apache
      yum: name=httpd

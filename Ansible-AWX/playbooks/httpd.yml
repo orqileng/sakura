@@ -1,5 +1,5 @@
 ---
-- hosts: test
+- hosts: localhost
   tasks:
    - name: install apache
      yum: name=httpd
